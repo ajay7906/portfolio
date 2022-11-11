@@ -1,0 +1,24 @@
+.margin-both{
+    max-width: 1200px;
+    padding: 2% 9%;
+    margin: 0 auto;
+    
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+
+}
+section .align-items{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+}
+.align-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

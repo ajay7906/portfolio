@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html{
+    font-size:  15px;
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+}
+
+header{
+    background-color:black;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid aqua;
+    clip-path: polygon(0 0, 100% 0, 100% 100%,  75% 90%, 0 100%);
+}
+.image span{
+    color: skyblue;
+    font-size: 50px;
+    font-weight: bolder;
+    
+}
+.image h3{
+    position: relative;
+    top: -23px;
+    left: 10px;
+    font-size: 30px;
+    color: white;
+}
+.middle ul{
+   margin-top: 25px;
+   margin-left: 1rem;
+}
+.middle ul li{
+    list-style: none;
+   
+    margin-left: 1.5rem;
+}
+.middle ul li a {
+    text-decoration: none;
+    color: white;
+}
+.middle a:hover{
+    color: aqua;
+}
+.right button{
+    padding: 6px 25px;
+    color: white;
+    background-color: aqua;
+    border: none;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.right button:hover{
+    background-color: burlywood;
+    cursor: pointer;
+}
+.middle-img{
+    color: white;
+    width: 45%;
+    
+}
+figure{
+    width: 40%;
+    margin-top: -1rem;
+    height: 80%;
+}
+figure img{
+    width: 100%;
+}
+.middle-img h2{
+    color: white;
+    font-size: 35px;
+    margin: 0;
+    
+    text-shadow: 5px 5px 5px green;
+}
+.middle-img h1{
+    font-size: 35px;
+    margin-top: 0px;
+    text-shadow: 5px 5px 5px green;
+    animation: ajay 3s linear 2s infinite;
+    animation-delay: 2s;
+}
+
+
+.middle-img span{
+    color: aqua;
+    
+}
+.middle-img button{
+    padding: 8px 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    border: 2px solid aqua;
+    color: aqua;
+    font-size: 20px;
+
+}
+.middle-img button:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+    color: white;
+}
+section .about-container{
+    margin-top: 3rem;
+    border: 2px solid aqua;
+}
+section .about-container figure{
+    width: 40%;
+}
+section .about-container figure img{
+    width: 100%;
+    position: relative;
+    top: 15px;
+    left: -40px;
+}
+section .about-info{
+    width: 45%;
+    margin:  0 auto;
+    
+}
+section .about-info h1{
+    font-size: 2rem;
+    margin: 0;
+}
+section .about-info h1 span{
+    color: aqua;
+}
+section .about-info h3{
+    margin: 0;
+}
+section .about-info p{
+    color: gray;
+    margin: 0;
+}
+.about-info .social{
+    font-size: 20px;
+    margin-top: 2.5rem;
+   
+}
+.about-info .social span{
+    background-color: black;
+    padding: 15px 15px;
+    border-radius: 100%;
+    color: white;
+    cursor: pointer;
+}
+.about-info .social .skyblue{
+    background-color: skyblue;
+}
