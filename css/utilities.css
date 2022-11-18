@@ -22,3 +22,19 @@ section .align-items{
     align-items: center;
     justify-content: center;
 }
+.cv{
+    padding: 8px 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    border: 2px solid aqua;
+    color: aqua;
+    font-size: 20px;
+}
+.cv:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+    color: white;
+    transition: all 1s ease;
+
+}
+
